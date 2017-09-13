@@ -7,8 +7,17 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
+        int n = scanner.nextInt();
+        int nul=0;
+
+        for(int i=0;i<n;i++){
+            int x = scanner.nextInt();
+            if(x==0){
+                nul++;
+            }
+        }
+
+        System.out.print(nul);
 
     }
 }
