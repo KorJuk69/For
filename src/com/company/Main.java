@@ -10,5 +10,13 @@ public class Main {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
+        if(a%2==1){
+            a++;
+        }
+        while(a<=b){
+            System.out.print(a + " ");
+            a = a + 2;
+        }
+
     }
 }
