@@ -8,7 +8,15 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
-        int b = scanner.nextInt();
+        int sum=0;
+
+        for(int i=a;i<(a+100);i++){
+
+            sum=sum+i;
+
+        }
+
+        System.out.print(sum);
 
     }
 }
